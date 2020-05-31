@@ -15,7 +15,7 @@ class Foto < Formula
     system "swift", "build",
       "--configuration", "release",
       "--disable-sandbox"
-    bin.install '.build/release/your-project'
+    bin.install '.build/release/foto'
   end
 
   test do
