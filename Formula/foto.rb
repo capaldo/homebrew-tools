@@ -4,8 +4,7 @@
 class Foto < Formula
   desc "A Swift command-line tool to copy and paste images from your clipboard"
   homepage "https://github.com/capaldo/foto"
-  url "https://github.com/capaldo/foto.git",
-    :tag => "0.1"
+  url "https://github.com/capaldo/foto.git"
   version "0.1"
   sha256 "9611a70c5f3ce5d6b1b992a9e5b056ce377269f19418432a4ce287fb09675269"
 
