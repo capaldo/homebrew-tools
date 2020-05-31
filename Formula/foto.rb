@@ -7,6 +7,7 @@ class Foto < Formula
   url "https://github.com/capaldo/foto.git"
   version "0.1"
   sha256 "9611a70c5f3ce5d6b1b992a9e5b056ce377269f19418432a4ce287fb09675269"
+  head "https://github.com/capaldo/foto.git"
 
   def install
     bin.install "foto"
