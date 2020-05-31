@@ -3,7 +3,7 @@ class Foto < Formula
   homepage "https://github.com/capaldo/foto"
   url "https://github.com/capaldo/foto.git"
   version "0.1.3"
-  sha256 "b98dd98b5942cda9c509a733ac4fc8b3614b607143be451adde1bd1ec3fd7b97"
+  sha256 "a077574548d5e56e4f2b4e6061a7927247a9d7272fefca73dd49bb3bb8e2a29f"
   head "https://github.com/capaldo/foto.git"
 
   depends_on :xcode => ["11.5", :build]
