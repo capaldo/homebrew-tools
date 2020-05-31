@@ -1,4 +1,4 @@
-# Capaldo Tools
+# Homebrew Tools
 
 ## How do I install these formulae?
 `brew install capaldo/tools/<formula>`
