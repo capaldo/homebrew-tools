@@ -8,13 +8,8 @@ class Foto < Formula
   version "0.1"
   sha256 "9611a70c5f3ce5d6b1b992a9e5b056ce377269f19418432a4ce287fb09675269"
 
-  depends_on :xcode => ["11.5", :build]
-
   def install
-    system "swift", "build",
-      "--configuration", "release",
-      "--disable-sandbox"
-    bin.install '.build/release/foto'
+    bin.install "foto"
   end
 
   test do
