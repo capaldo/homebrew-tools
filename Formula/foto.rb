@@ -5,8 +5,8 @@ class Foto < Formula
   desc "A Swift command-line tool to copy and paste images from your clipboard"
   homepage "https://github.com/capaldo/foto"
   url "https://github.com/capaldo/foto.git"
-  version "0.1.2"
-  sha256 "4ea0df9eaf209fc02041c954199531e950cb7ccaac47035334ffbe94c762318d"
+  version "0.1.3"
+  sha256 "b98dd98b5942cda9c509a733ac4fc8b3614b607143be451adde1bd1ec3fd7b97"
   head "https://github.com/capaldo/foto.git"
 
   def install
