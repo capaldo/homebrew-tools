@@ -3,7 +3,7 @@ class Foto < Formula
   homepage "https://github.com/capaldo/foto"
   url "https://github.com/capaldo/foto.git"
   version "0.1.3"
-  sha256 "a077574548d5e56e4f2b4e6061a7927247a9d7272fefca73dd49bb3bb8e2a29f"
+  sha256 "c9e9d526cb73d5752bc5b140fffd06893c9832d57fc5f3a260972f3ea2929431"
   head "https://github.com/capaldo/foto.git"
 
   depends_on :xcode => ["11.5", :build]
@@ -13,6 +13,6 @@ class Foto < Formula
   end
 
   test do
-    system "#{bin}/foto" "import Foundation\n"
+    system "#{bin}/foto"
   end
 end
