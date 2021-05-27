@@ -1,5 +1,5 @@
 class Foto < Formula
-  desc "A Swift command-line tool to copy and paste images from your clipboard"
+  desc "A Swift command-line tool for working with images"
   homepage "https://github.com/capaldo/foto"
   url "https://github.com/capaldo/foto.git"
   version "0.2"
